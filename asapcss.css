@@ -1,0 +1,114 @@
+html {
+    background-image: linear-gradient(to bottom,#a09d9b, white );
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    font-size: 200%;
+    padding-top: 15px;
+    border: 3px solid black;
+    background-color: #e8e6e1;
+    height: 75px;
+    box-sizing: border-box;
+    background-image: url(paint.jpg);
+}
+.site-nav {
+    padding: 10px;
+    font-size: 150%;
+    font-weight: bolder;
+    box-sizing:border-box;
+}
+    
+.site-nav li {
+list-style: none;
+float:left;
+margin-right: 30px;
+background-color:#e8e6e1 ;
+border: 1px gray;
+background-image: url(paint.jpg);
+background-position: top;
+}
+
+.site-nav ul {
+    margin:0;
+    padding-left: 33%;
+    padding-bottom: 20px;
+}
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    color: #020b33;
+    padding: 10px  20px;
+    border: 3px solid #020b33;
+}
+
+.site-nav a:hover {
+    background-color:#7e849e ;
+}
+
+body {
+    text-align: center;
+    font-size: large;
+}
+
+.centered-block-x {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-height: 500px;
+  }
+
+  h3 {
+      padding: 10px  20px;
+      background-color: white;
+  }
+
+ul {
+    list-style: none;
+}
+
+.contact li {
+  padding-bottom: 10px;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.before {
+    float: left;
+    margin-left:200px;
+    }
+
+    .after {
+        float:left;
+        margin-left: 5px;
+    }
+
+    @media screen and (max-width:700px) {
+        html{
+            width:auto;
+            float: none;
+        }
+        @media screen and (max-width: 480px) {
+            html {
+                padding-left:20px;
+                padding-right:20px;
+            }
+
+            @media screen and (min-width: 1300px) {
+                html {
+                    max-width: 1200px;
+                }
+                .before {
+                    max-width: 50%;
+                }
+                .after {max-width: 50%;}
+                body {
+                    font-size: 300%;
+                }
+            }
