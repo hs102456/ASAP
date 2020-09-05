@@ -98,6 +98,10 @@ ul {
             html {
                 padding-left:20px;
                 padding-right:20px;
+                .before,
+                .after {
+                    width: 100%;
+                }
             }
 
             @media screen and (min-width: 1300px) {
