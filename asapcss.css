@@ -81,7 +81,7 @@ ul {
 
 .before {
     float: left;
-    margin-left:200px;
+    margin-left:160px;
     }
 
     .after {
@@ -90,32 +90,29 @@ ul {
     }
 
     @media screen and (max-width:700px) {
-        html{
-            width:auto;
-            float: none;
+        h1 {
+            font-size:10vw;
         }
+        h3 {
+            font-size: 10vw;
+        }
+    }
+
         @media screen and (max-width: 480px) {
-            html {
-                padding-left:20px;
-                padding-right:20px;
-                .before,
-                .after {
-                    width: 100%;
-                    float: none;
-                    margin-left: none;
-                }
-                
+            h1 {
+                font-size:10vw;
             }
+            h3 {
+                font-size: 10vw;
+            }
+            img {
+                max-width:100%;
+                height:auto;
+            }
+            }
+    }
+
 
             @media screen and (min-width: 1300px) {
-                html {
-                    max-width: 1200px;
-                }
-                .before {
-                    max-width: 50%;
-                }
-                .after {max-width: 50%;}
-                body {
-                    font-size: 300%;
-                }
-            }
+                
+        
