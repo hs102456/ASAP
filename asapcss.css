@@ -98,7 +98,7 @@ ul {
             font-size: 10vw;
         }
         img {
-            max-width:100%;
+            width:100%;
             height:auto;
             margin-left: 0px;
         }
@@ -113,7 +113,7 @@ ul {
                 font-size: 10vw;
             }
             img {
-                max-width:100%;
+                width:100%;
                 height:auto;
                 margin-left: 0px;
             }
