@@ -101,7 +101,12 @@ ul {
         img {
             width: 100%;
             height:auto;
-            margin-left: 0px;}
+            margin-left: 0px;
+        }
+
+        .before{
+            transform: translate(-155px, -10px);
+        }
         }
     }
 
