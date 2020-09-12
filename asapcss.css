@@ -99,9 +99,17 @@ ul {
             padding-top: 20px;
         }
         img {
-            width:100%;
+            display: flex;
             height:auto;
-            margin-left: 0px;
+            margin-left: 0px;}
+            
+            .site-nav {
+                display: flex;
+            }
+
+            .site-nav li {
+                flex: 1;
+            }
         }
     }
 
@@ -114,9 +122,15 @@ ul {
                 font-size: 10vw;
             }
             img {
-                width:100%;
+                display: flex;
                 height:auto;
                 margin-left: 0px;
+            }
+            .site-nav {
+                display:flex;
+            }
+            .site-nav li {
+                flex:1;
             }
             }
     }
