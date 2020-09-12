@@ -99,17 +99,9 @@ ul {
             padding-top: 20px;
         }
         img {
-            display: flex;
+            width: 100%;
             height:auto;
             margin-left: 0px;}
-            
-            .site-nav {
-                display: flex;
-            }
-
-            .site-nav li {
-                flex: 1;
-            }
         }
     }
 
@@ -122,15 +114,9 @@ ul {
                 font-size: 10vw;
             }
             img {
-                display: flex;
+                width:100%;
                 height:auto;
                 margin-left: 0px;
-            }
-            .site-nav {
-                display:flex;
-            }
-            .site-nav li {
-                flex:1;
             }
             }
     }
